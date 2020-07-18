@@ -18,7 +18,7 @@ export const BrzmiHeader = styled.h2`
     text-align: center;
     color: #3f51b5;
     @media (max-width: 600px) {
-        font-size: 40px;
+        font-size: 40spx;
   }
 `;
 export const BrzmiButton = styled.button`
