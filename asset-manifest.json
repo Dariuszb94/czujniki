@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/czujniki/static/css/main.9f212e0a.chunk.css",
-    "main.js": "/czujniki/static/js/main.7cbceee6.chunk.js",
-    "main.js.map": "/czujniki/static/js/main.7cbceee6.chunk.js.map",
+    "main.js": "/czujniki/static/js/main.ed5368e8.chunk.js",
+    "main.js.map": "/czujniki/static/js/main.ed5368e8.chunk.js.map",
     "runtime-main.js": "/czujniki/static/js/runtime-main.13b41606.js",
     "runtime-main.js.map": "/czujniki/static/js/runtime-main.13b41606.js.map",
     "static/js/2.708b52b6.chunk.js": "/czujniki/static/js/2.708b52b6.chunk.js",
     "static/js/2.708b52b6.chunk.js.map": "/czujniki/static/js/2.708b52b6.chunk.js.map",
     "index.html": "/czujniki/index.html",
-    "precache-manifest.c0d9ca5953feba81e4cf1d01cdf1f99f.js": "/czujniki/precache-manifest.c0d9ca5953feba81e4cf1d01cdf1f99f.js",
+    "precache-manifest.90c910dc2971fe478e207f5d2a2b21d5.js": "/czujniki/precache-manifest.90c910dc2971fe478e207f5d2a2b21d5.js",
     "service-worker.js": "/czujniki/service-worker.js",
     "static/css/main.9f212e0a.chunk.css.map": "/czujniki/static/css/main.9f212e0a.chunk.css.map",
     "static/js/2.708b52b6.chunk.js.LICENSE.txt": "/czujniki/static/js/2.708b52b6.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.13b41606.js",
     "static/js/2.708b52b6.chunk.js",
     "static/css/main.9f212e0a.chunk.css",
-    "static/js/main.7cbceee6.chunk.js"
+    "static/js/main.ed5368e8.chunk.js"
   ]
 }
