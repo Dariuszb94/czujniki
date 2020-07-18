@@ -6,10 +6,14 @@ export const Container = styled.div`
     padding-left:12.2%;
     background-color:black;
     font-family: 'Exo 2', 'Calibri', sans-serif;
+    @media (max-width: 860px) {
+        padding-left:4%;
+  }
+
 
 `;
 export const Header = styled.div`
-    margin-top:104px;
+    margin-top:152px;
     margin-bottom:8px;
     font-size: 64px;
     font-weight: 500;
@@ -18,6 +22,14 @@ export const Header = styled.div`
     line-height: 1.25;
     letter-spacing: normal;
     color: #ffffff;
+    @media (max-width: 1000px) {
+    font-size: 40px;
+    margin-top:140px;
+  }
+  @media (max-width: 600px) {
+    font-size: 36px;
+    margin-top:136px;
+  }
 `;
 export const Subheader = styled.div`
     margin-bottom:48px;
@@ -28,6 +40,10 @@ export const Subheader = styled.div`
     line-height: 1.5;
     letter-spacing: normal;
     color: #ffffff;
+    @media (max-width: 600px) {
+    font-size: 20px;
+    margin-bottom:40px;
+  }
 `;
 export const ContactButton = styled.button`
     padding-top:12px;
@@ -49,4 +65,10 @@ export const ContactButton = styled.button`
     background-color: #ffffff;
     margin-bottom:168px;
     font-family:inherit;
+    @media (max-width: 1000px) {
+        margin-bottom:124px;
+  }
+  @media (max-width: 600px) {
+    margin-bottom:96px;
+  }
 `;

@@ -7,8 +7,8 @@ export const Container = styled.div`
   padding-right:64px;
   padding-top:24px;
   padding-bottom:24px;
-  height:80px;
   background-color:#3f51b5;
   justify-content: space-between;
-  
+  position:fixed;
+  width:100%;
 `;
