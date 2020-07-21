@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import kropki from "../../Assets/kropki-dol-kompresja.svg"
 
 export const BrzmiContainer = styled.div`
     display:flex;
     flex-direction:column;
+    background-image:url(${kropki});
+    background-size:cover;
     font-family: 'Exo 2', 'Calibri', sans-serif;
     align-items: center;
 `;

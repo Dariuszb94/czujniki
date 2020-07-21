@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import kropki from "../../Assets/t-o-3.png"
 
 export const ContainerProduct = styled.div`
     display:flex;
@@ -32,6 +33,8 @@ export const ProductDescription = styled.div`
     width:50%;
     padding-bottom:40px;
     padding-top:64px;
+    background-image:url(${kropki});
+    background-repeat:no-repeat;
     @media (max-width: 1280px) {
     padding-bottom:24px;
     padding-top:40px;

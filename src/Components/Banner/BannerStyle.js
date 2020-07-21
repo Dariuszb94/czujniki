@@ -1,10 +1,13 @@
 import styled from "styled-components";
+import kropki from "../../Assets/kropki-baner-kompresja.svg"
 
 export const Container = styled.div`
     display:flex;
     flex-direction:column;
     padding-left:12.2%;
-    background-color:black;
+    background-color:#3f51b5;
+    background-size:cover;
+    background-image: url(${kropki});
     font-family: 'Exo 2', 'Calibri', sans-serif;
     @media (max-width: 860px) {
         padding-left:4%;
