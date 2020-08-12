@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Container, LogoImg} from "./LogoStyle";
+import {Container, LogoImg, LogoLink} from "./LogoStyle";
 import logo from "../../../../Assets/group-12-copy-5.png"
 
 class Logo extends Component {
@@ -7,7 +7,8 @@ class Logo extends Component {
   render() {
     return (
       <Container>
-          <LogoImg src={logo}/>
+        <LogoLink href="/home"><LogoImg src={logo}/></LogoLink>
+          
       </Container>
     );
   }

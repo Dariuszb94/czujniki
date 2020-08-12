@@ -22,11 +22,11 @@ class Header extends Component {
   listenForResize(){
     if(window.innerWidth < 1000) {
       this.setState({ isMobile: true});
-      console.log("mobile");
+     // console.log("mobile");
     }
     else{
       this.setState({ isMobile: false});
-      console.log("Niemobile");
+     // console.log("Niemobile");
     }
   }
   render() {

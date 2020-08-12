@@ -39,10 +39,10 @@ class Hamburger extends Component {
       <Logo/>
       <HamburgerMenu>
         <Menu styles={ styles }>
-          <HamburgerMenuElement id="home" href="/">Mapa czujników</HamburgerMenuElement>
-          <HamburgerMenuElement id="home" href="/">Wykresy</HamburgerMenuElement>
-          <HamburgerMenuElement id="home" href="/">Czujniki</HamburgerMenuElement>
-          <HamburgerMenuElement id="home" href="/">O nas</HamburgerMenuElement>
+          <HamburgerMenuElement   to="/map" >Mapa czujników</HamburgerMenuElement>
+          <HamburgerMenuElement  to="/map" >Wykresy</HamburgerMenuElement>
+          <HamburgerMenuElement to="/map" >Czujniki</HamburgerMenuElement>
+          <HamburgerMenuElement to="/map" >O nas</HamburgerMenuElement>
         </Menu>
       </HamburgerMenu>
       </React.Fragment>

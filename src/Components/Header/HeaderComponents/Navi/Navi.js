@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Container, Menu, MenuElement} from "./NaviStyle";
+import {Container, Menu, MenuElement, StyledLink} from "./NaviStyle";
 
 class Logo extends Component {
 
@@ -7,7 +7,7 @@ class Logo extends Component {
     return (
       <Container>
         <Menu>
-          <MenuElement>Mapa Czujników</MenuElement>
+        <MenuElement><StyledLink to="/map" activeClassName="active">Mapa czujników</StyledLink></MenuElement>
           <MenuElement>Wykresy</MenuElement>
           <MenuElement>Czujniki</MenuElement>
           <MenuElement>O Nas</MenuElement>
